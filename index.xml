@@ -6,10 +6,19 @@
     <description>Recent content on #Define</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mystash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Important Points</title>
+      <link>https://mystash.github.io/notes/2018-06-07-imp/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/2018-06-07-imp/</guid>
+      <description>Arrays are always passed by reference, be it character array(string) in C++.  cin  cin ifnores whitespaces and reads only non-whitespace characters, cin reads from a file known as &amp;lsquo;stdin&amp;rsquo;&amp;ldquo;istream&amp;rdquo; and cin can be invalidated by supplying value of a type that is not expected, cin gets invalidated and never takes any input throughout the rest of the program.  return cin; //will return false if cin has been invalidated before  We can re-validate cin by cin.</description>
+    </item>
     
     <item>
       <title>.[Day-5] Reference and Array Sorting Algorithms</title>
@@ -37,7 +46,8 @@
       
       <guid>https://mystash.github.io/notes/2018-07-08-all/</guid>
       <description>Links for all programming notes. [Day-4] - Functions and Arrays
-[Day-5] - Reference and Array Sorting Algorithms</description>
+[Day-5] - Reference and Array Sorting Algorithms
+PDF Download</description>
     </item>
     
   </channel>
