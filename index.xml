@@ -6,10 +6,29 @@
     <description>Recent content on #Define</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mystash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Sublime Environment for Coding</title>
+      <link>https://mystash.github.io/notes/2018-06-07-my-sublime-env/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/2018-06-07-my-sublime-env/</guid>
+      <description>Preliminaries  Download and copy /MinGW/bin path to the Environment Variables. Download Link - www.cb.lk/compile Setup Guide. Link - https://medium.com/@aggarwaldeepak/c-learning-environment-3df85a46784b  Sublime Packages Keyboard Shortcut: Ctrl+Shift+P -&amp;gt; Install Packages -&amp;gt; &amp;ldquo;Package Name&amp;rdquo;
+ SublimeAStyleFormatter Terminal Wakatime   More Keyboard Shortcuts  For Building/Compiling: Ctrl+B For Powershell Terminal: Ctrl+Shift+T For Auto-formatting the code: Ctrl+Alt+F For New Tab: Ctrl+N For Closing Current Tab: Ctrl+W For Saving Current: Ctrl+S For Saving As.</description>
+    </item>
+    
+    <item>
+      <title>Quick Jots</title>
+      <link>https://mystash.github.io/notes/2018-06-07-quick-jots/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/2018-06-07-quick-jots/</guid>
+      <description> The most significant dimension of an array is optional while defining a function with array as an argument.  int example(int arr[][3][3], int n) { } // Function Definition   Short-circuit Evaluation  while(i &amp;lt; len &amp;amp;&amp;amp; arr[i] == 100) // if first condition is false, second is never evaluated while(i &amp;lt; len || arr[i] == 100) // if first condition is true, second is never evaluated  while(i &amp;lt; len &amp;amp;&amp;amp; arr[i] == 100) while(arr[i] == 100 &amp;amp;&amp;amp; i &amp;lt; len) // both these statements are not equivalent as second returns a segmentation fault, because the first is evaluated first  </description>
+    </item>
     
     <item>
       <title>Important Points</title>
