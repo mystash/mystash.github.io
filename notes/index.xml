@@ -6,10 +6,19 @@
     <description>Recent content in Notes on #Define</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mystash.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.[Day-9] Pointers</title>
+      <link>https://mystash.github.io/notes/2018-06-09-pointers/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/2018-06-09-pointers/</guid>
+      <description>Address  There exists one more data type called as &amp;ldquo;Address Data Type&amp;rdquo; which is used to store data. It has certain limitations in arithmetic operations that can be done with it and it is often represented as a Hex value. It behaves much like a real-world address. Address of anything is basically its starting address location (address). e.g. Arrays, etc&amp;hellip;  Meaning and Syntax  int *ptr = &amp;amp;x; - This statement creates a variable named &amp;ldquo;ptr&amp;rdquo; that stores address (data type) of the integer variable &amp;lsquo;x&amp;rsquo; - ptr is also called a Pointer.</description>
+    </item>
     
     <item>
       <title>My Sublime Environment for Coding</title>
@@ -67,6 +76,15 @@
       <description>Links for all programming notes. [Day-4] - Functions and Arrays
 [Day-5] - Reference and Array Sorting Algorithms
 PDF Download</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mystash.github.io/notes/notes-10-06-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/notes-10-06-2018/</guid>
+      <description> BITWISE Operator &amp;gt;&amp;gt; Right Shift Operator - results in 2^(number of times shifted) &amp;lt;&amp;lt; Left Shift Operator   Bitwise AND (&amp;amp;) yields an integer value. Bitwise OR (|) yields an integer value. Bitwise XOR (^) yields either 0 or 1. To identify if the last bit is SET(=1), AND(&amp;amp;) the number with 1.  Recursion int factorial(int n){ if(n==0) // Base Case { return 1; } int smallFact = factorial(n-1); // Recurrence Relation Fact = smallFact * n; return Fact; }  </description>
     </item>
     
   </channel>
