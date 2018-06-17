@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mystash.github.io/notes/2018-06-10-bitwise-and-recursion/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mystash.github.io/notes/2018-06-09-pointers/</loc>
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url>
@@ -38,12 +43,8 @@
   </url>
   
   <url>
-    <loc>https://mystash.github.io/notes/notes-10-06-2018/</loc>
-  </url>
-  
-  <url>
     <loc>https://mystash.github.io/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,7 +55,7 @@
   
   <url>
     <loc>https://mystash.github.io/notes/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

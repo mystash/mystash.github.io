@@ -6,10 +6,19 @@
     <description>Recent content on #Define</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mystash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bitwise Operations and Recursion</title>
+      <link>https://mystash.github.io/notes/2018-06-10-bitwise-and-recursion/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mystash.github.io/notes/2018-06-10-bitwise-and-recursion/</guid>
+      <description> BITWISE Operator &amp;gt;&amp;gt; Right Shift Operator - results in 2^(number of times shifted) &amp;lt;&amp;lt; Left Shift Operator   Bitwise AND (&amp;amp;) yields an integer value. Bitwise OR (|) yields an integer value. Bitwise XOR (^) yields either 0 or 1. To identify if the last bit is SET(=1), AND(&amp;amp;) the number with 1.  Recursion int factorial(int n){ if(n==0) // Base Case { return 1; } int smallFact = factorial(n-1); // Recurrence Relation Fact = smallFact * n; return Fact; }  </description>
+    </item>
     
     <item>
       <title>.[Day-9] Pointers</title>
@@ -76,15 +85,6 @@
       <description>Links for all programming notes. [Day-4] - Functions and Arrays
 [Day-5] - Reference and Array Sorting Algorithms
 PDF Download</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mystash.github.io/notes/notes-10-06-2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mystash.github.io/notes/notes-10-06-2018/</guid>
-      <description> BITWISE Operator &amp;gt;&amp;gt; Right Shift Operator - results in 2^(number of times shifted) &amp;lt;&amp;lt; Left Shift Operator   Bitwise AND (&amp;amp;) yields an integer value. Bitwise OR (|) yields an integer value. Bitwise XOR (^) yields either 0 or 1. To identify if the last bit is SET(=1), AND(&amp;amp;) the number with 1.  Recursion int factorial(int n){ if(n==0) // Base Case { return 1; } int smallFact = factorial(n-1); // Recurrence Relation Fact = smallFact * n; return Fact; }  </description>
     </item>
     
   </channel>
