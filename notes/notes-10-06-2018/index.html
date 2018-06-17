@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Notes &middot; #Define</title>
+  <title> &middot; #Define</title>
 
   
   <link type="text/css" rel="stylesheet" href="https://mystash.github.io/css/print.css" media="print">
@@ -23,7 +23,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://mystash.github.io/notes/index.xml" rel="alternate" type="application/rss+xml" title="#Define" />
+  <link href="" rel="alternate" type="application/rss+xml" title="#Define" />
 
   
 </head>
@@ -48,25 +48,40 @@
 </div>
 
     <div class="content container">
-    <ul class="posts">
-<li>
-    <span><a href="https://mystash.github.io/notes/2018-06-10-bitwise-and-recursion/">Bitwise Operations and Recursion</a> <time class="pull-right post-list">Sun, Jun 10, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-09-pointers/">.[Day-9] Pointers</a> <time class="pull-right post-list">Sat, Jun 9, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-07-my-sublime-env/">My Sublime Environment for Coding</a> <time class="pull-right post-list">Thu, Jun 7, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-07-quick-jots/">Quick Jots</a> <time class="pull-right post-list">Thu, Jun 7, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-07-imp/">Important Points</a> <time class="pull-right post-list">Wed, Jun 6, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-03-day-5/">.[Day-5] Reference and Array Sorting Algorithms</a> <time class="pull-right post-list">Sun, Jun 3, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-06-01-day-4/">.[Day-4] Functions and Arrays</a> <time class="pull-right post-list">Fri, Jun 1, 2018</time></span>
-  </li><li>
-    <span><a href="https://mystash.github.io/notes/2018-07-08-all/">All Programming Notes</a> <time class="pull-right post-list">Fri, Jun 1, 2018</time></span>
-  </li>
+    <div class="post">
+  <h1></h1>
+  <span class="post-date">Mon, Jan 1, 0001</span>
+  
+
+<h3 id="bitwise-operator">BITWISE Operator</h3>
+
+<pre><code>&gt;&gt; Right Shift Operator - results in 2^(number of times shifted)
+&lt;&lt; Left Shift Operator
+</code></pre>
+
+<ul>
+<li>Bitwise AND (&amp;) yields an integer value.</li>
+<li>Bitwise OR (|) yields an integer value.</li>
+<li>Bitwise XOR (^) yields either 0 or 1.</li>
+<li>To identify if the last bit is SET(=1), AND(&amp;) the number with 1.</li>
 </ul>
+
+<h3 id="recursion">Recursion</h3>
+
+<pre><code>int factorial(int n){
+    if(n==0)                            // Base Case
+    {
+        return 1;
+    }
+    int smallFact = factorial(n-1);     // Recurrence Relation
+    Fact = smallFact * n;
+    return Fact;
+}
+</code></pre>
+
+</div>
+
+
     </div>
 
     
