@@ -163,6 +163,10 @@ int main()
 
 <p><strong>Solution</strong> - We can allocate space to array on demand, dynamically from the Heap.</p>
 
+<p>When pointers are copied from one object to another using Default Copy Constructor the address in the pointer remains the same and changes done to one will be reflected into the others too. This is a <strong>Shallow Copy</strong>.</p>
+
+<p>Hence we need to dynamically allocate new pointers in our new object and copy data manually in our Copy Constructor to avoid this. This is a <strong>DeepCopy</strong>.</p>
+
 <pre><code>#define LABEL(x, val) cout &lt;&lt; &quot;Updated Value of &quot; &lt;&lt; (#x) &lt;&lt; &quot; &quot; &lt;&lt; (val)\
         &lt;&lt; endl
 
