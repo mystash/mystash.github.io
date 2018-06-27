@@ -1,196 +1,481 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.40.1" />
 
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<html lang="zxx" class="no-js">
 
-  <title>#Define</title>
+	<head>
+		<meta charset="utf-8">
+		<title>Abyssal Tech | App</title>
+		<meta name="description" content="Android and iOS app and pre-alpha program announcement page.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="eon">
 
-  
-  <link type="text/css" rel="stylesheet" href="https://mystash.github.io/css/print.css" media="print">
-  <link type="text/css" rel="stylesheet" href="https://mystash.github.io/css/poole.css">
-  <link type="text/css" rel="stylesheet" href="https://mystash.github.io/css/syntax.css">
-  <link type="text/css" rel="stylesheet" href="https://mystash.github.io/css/hyde.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+        <link rel="shortcut icon" href="img-app/favicon.ico">
 
+		<!-- ============== Resources style ============== -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
 
-  
-  <link href="https://mystash.github.io/index.xml" rel="alternate" type="application/rss+xml" title="#Define" />
+	<body>
 
-  
-</head>
+		<!-- *** LOADING *** -->
 
-  <body class=" ">
-  <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <a href="https://mystash.github.io/"><h1>#Define</h1></a>
-      <p class="lead">
-      A collection of all my notes and elucidations. 
-      </p>
-    </div>
+		<div id="loading">
 
-    <ul class="sidebar-nav">
-      <li><a href="https://mystash.github.io/"><u>Home</u></a> </li>
-      <li><a href="/notes/2018-07-08-all/"><u> All Programming Notes </u></a></li>
-    </ul>
+			<div class="loader">
+				<span class="dots">	.</span>
+				<span class="dots">	.</span>
+				<span class="dots">	.</span>
+				<span class="dots">	.</span>
+				<span class="dots">	.</span>
+				<span class="dots">	.</span>
+				<p class="loader__label">Abyssal Tech | <span data-words="Loading|Code|Dev|Hack|ज्ञान"></span></p>
+			</div>
+		</div>
 
-    <p>Made with <a href="http://gohugo.io">❤️</a> by <a href="https://github.com/abhishekarya1">Abhishek Arya</a>.</p>
-  </div>
-</div>
+		<button id="small-screen-menu">
 
-    <div class="content container">
-    <div class="posts">
-<div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-18-const/">Const</a>
-  </h1>
-  <span class="post-date">Mon, Jun 18, 2018</span>
-  Constant Data Members Data Members declared with cont keyword cannot be re-initialised. They must be initialized once. They can be declared once and initialised once.
-const int x; // Declaration x = 90; // Initialisation  Initialisation List Any const data member must be initialised in Initialisation List.
-Car():name(NULL), year(1991) { } Car(int price, int m):price(p), model(m) // Memory allocated to variables before entering the body of the constructor { }  Constant Functions Those functions that do not update data members of a class.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-18-const/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-18-constructors-destructors/">Constructors and Destructors</a>
-  </h1>
-  <span class="post-date">Mon, Jun 18, 2018</span>
-  Constructors Every class comes with four hidden functions. 1. Default Constructor 2. Parameterized Constructor 3. Copy Constructors 4. Destructor
-Default Constructors  They have the same name as the class and do not have any return type. They are provided implicitly and they initialise with 0.
-class me { me() { // they have nothing inside } }  Parameterized Constructors  If we write something inside and parameterize it, then it is called parameterized constructor.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-18-constructors-destructors/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-18-oops-in-c&#43;&#43;/">Object-Oriented Programming in C&#43;&#43;</a>
-  </h1>
-  <span class="post-date">Mon, Jun 18, 2018</span>
-  Goals Everything in the real-world has a name and a functionality associated with it. Ex - A name of an object is &ldquo;Dog&rdquo;, it can have various parameters like breed, length, height, or the functions it can perform like running, eating, sleeping.
-What we can do is that we can create objects of a Dog and then whenever we want to store different information about any Dog, we can use that object again and again.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-18-oops-in-c&#43;&#43;/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-18-vectors-and-generic/">STL - Vectors and Generic Programming</a>
-  </h1>
-  <span class="post-date">Mon, Jun 18, 2018</span>
-  Vectors They are data structures in C++ just like arrays but they have size that is capped only by the amount of space we can possibly allocate.
- Header files:  #include&lt;vector&gt;  Declaration:  vector&lt;int&gt; v; // vector&lt;data_type&gt; name;  As Function Parameter Passed by Reference:  int func(int n, vector&lt;int&gt; &amp;v) { }   Built in Functions  v.push_back(x) - Pushes the element(x) inside the vector. v.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-18-vectors-and-generic/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-10-bitwise-and-recursion/">Bitwise Operations and Recursion</a>
-  </h1>
-  <span class="post-date">Sun, Jun 10, 2018</span>
-   BITWISE Operator &gt;&gt; Right Shift Operator - results in 2^(number of times shifted) &lt;&lt; Left Shift Operator   Bitwise AND (&amp;) yields an integer value. Bitwise OR (|) yields an integer value. Bitwise XOR (^) yields either 0 or 1. To identify if the last bit is SET(=1), AND(&amp;) the number with 1.  Recursion int factorial(int n){ if(n==0) // Base Case { return 1; } int smallFact = factorial(n-1); // Recurrence Relation Fact = smallFact * n; return Fact; }  
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-09-pointers/">.[Day-9] Pointers</a>
-  </h1>
-  <span class="post-date">Sat, Jun 9, 2018</span>
-  Address  There exists one more data type called as &ldquo;Address Data Type&rdquo; which is used to store data. It has certain limitations in arithmetic operations that can be done with it and it is often represented as a Hex value. It behaves much like a real-world address. Address of anything is basically its starting address location (address). e.g. Arrays, etc&hellip;  Meaning and Syntax  int *ptr = &amp;x; - This statement creates a variable named &ldquo;ptr&rdquo; that stores address (data type) of the integer variable &lsquo;x&rsquo; - ptr is also called a Pointer.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-09-pointers/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-07-my-sublime-env/">My Sublime Environment for Coding</a>
-  </h1>
-  <span class="post-date">Thu, Jun 7, 2018</span>
-  Preliminaries  Download and copy /MinGW/bin path to the Environment Variables. Download Link - www.cb.lk/compile Setup Guide. Link - https://medium.com/@aggarwaldeepak/c-learning-environment-3df85a46784b  Sublime Packages Keyboard Shortcut: Ctrl+Shift+P -&gt; Install Packages -&gt; &ldquo;Package Name&rdquo;
- SublimeAStyleFormatter Terminal Wakatime   More Keyboard Shortcuts  For Building/Compiling: Ctrl+B For Powershell Terminal: Ctrl+Shift+T For Auto-formatting the code: Ctrl+Alt+F For New Tab: Ctrl+N For Closing Current Tab: Ctrl+W For Saving Current: Ctrl+S For Saving As.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-07-my-sublime-env/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-07-quick-jots/">Quick Jots</a>
-  </h1>
-  <span class="post-date">Thu, Jun 7, 2018</span>
-   The most significant dimension of an array is optional while defining a function with array as an argument.  int example(int arr[][3][3], int n) { } // Function Definition   Short-circuit Evaluation  while(i &lt; len &amp;&amp; arr[i] == 100) // if first condition is false, second is never evaluated while(i &lt; len || arr[i] == 100) // if first condition is true, second is never evaluated  while(i &lt; len &amp;&amp; arr[i] == 100) while(arr[i] == 100 &amp;&amp; i &lt; len) // both these statements are not equivalent as second returns a segmentation fault, because the first is evaluated first  
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-07-imp/">Important Points</a>
-  </h1>
-  <span class="post-date">Wed, Jun 6, 2018</span>
-  Arrays are always passed by reference, be it character array(string) in C++.  cin  cin ifnores whitespaces and reads only non-whitespace characters, cin reads from a file known as &lsquo;stdin&rsquo;&ldquo;istream&rdquo; and cin can be invalidated by supplying value of a type that is not expected, cin gets invalidated and never takes any input throughout the rest of the program.  return cin; //will return false if cin has been invalidated before  We can re-validate cin by cin.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-07-imp/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-03-day-5/">.[Day-5] Reference and Array Sorting Algorithms</a>
-  </h1>
-  <span class="post-date">Sun, Jun 3, 2018</span>
-  Pass by Reference void myswap(int &amp;n1, int &amp;n2) //formal parameters /*Called Function Pass by Reference*/ { int temp=n1; n1=n2; n2=temp; } int main() // Calling Function { int a,b; cin&gt;&gt;a&gt;&gt;b; myswap(a,b); //arguments or actual parameters // Function call independent of pass method cout&lt;&lt;a&lt;&lt;&quot; &quot;&lt;&lt;b; }    Pass by Value - New variables are created
- Pass by Reference - New variables are not created, new names are given to the existing variables.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-03-day-5/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-01-day-4/">.[Day-4] Functions and Arrays</a>
-  </h1>
-  <span class="post-date">Fri, Jun 1, 2018</span>
-  Precedence of Operators  Division and Multiplication has same priority/precedence - to resolve, we use associativity (Left-to-Right).  Arrays  Arrays are Garbage Declared, Zero Initialized. Bound Checking is not done in C++, no compilation error when ArrayOutOfBound.  Errors  Logical Errors - Difficult to Debug. Semantics Errors - aka Compile Time Errors. Runtime Errors - Pass the Compilation but program fails during Runtime.like dividing by 0.  Undefined Behaviour No behaviour can be defined beforehand even in the same environment.
-  
-  <div class="read-more-link">
-    <a href="/notes/2018-06-01-day-4/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-07-08-all/">All Programming Notes</a>
-  </h1>
-  <span class="post-date">Fri, Jun 1, 2018</span>
-  Links for all programming notes. [Day-4] - Functions and Arrays
-[Day-5] - Reference and Array Sorting Algorithms
-PDF Download
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="https://mystash.github.io/notes/2018-06-18-strings/"></a>
-  </h1>
-  <span class="post-date">Mon, Jan 1, 0001</span>
-  title: STL - Strings date: 2018-06-18  Strings string is an in-built class in C++.
-string name; string s(&quot;Abhishek&quot;); string s1 = &quot;Abhishek&quot;; string s3; getline(cin, s3);  For further info, refer here.
-  
-</div>
-</div>
-    </div>
+			<span class="custom-menu"></span>
 
-    
-  </body>
+		</button>
+
+		<canvas id="constellationel"></canvas> 
+
+		<div id="constellation"></div> 
+
+		<div class="custom-overlay"></div>
+
+			<a class="brand-logo" href="https://abyssaltech.xyz">
+			<img src="img-app/AppLogo.png" alt="Our company logo" class="img-fluid" />
+		</a>
+
+		<!-- *** Fullpage sections *** -->
+		<div id="fullpage">
+
+			<!-- +++ START - Home +++ -->
+			<div class="section" id="section0">
+
+				<section class="content-inside-section">
+
+					<div class="container">
+
+						<div class="container-inside">
+
+							<div class="main-content align-center">
+
+								<!-- *** TEXT TITLE *** -->
+								<h1>
+								Coming Soon..
+								</h1>
+
+								<!-- *** COUNTDOWN TITLE *** -->
+								<!-- Set your date at the bottom of js/jquery.countdown.js -->
+
+								<!-- <h1>
+									official launch in<br>
+									<span id="getting-started"></span>
+								</h1> -->
+
+								<p class="on-home">Announcing the Pre-Alpha Program for the Abyssal Tech platform and app.<br>
+									Sign up and become a contributor now.
+								</p>
+
+								<br>
+
+								<div class="command">
+
+									<!-- ********** IF YOU WANT TO USE MORE POPUPS, SEE THE RECOMMENDATIONS AT THE END OF js/dialogFx.js ********** -->
+									<a id="popup_somedialog_1" data-dialog="somedialog_1" class="trigger light-btn colored">
+
+										<span id="first-text">Sign me up!</span>
+
+										<span id="second-text">I'm in</span> 
+									</a>
+
+									<a id="button-more" class="light-btn" href="#About">Explore
+										<span class="ask-to-scroll">
+											<span class="arrow"><span></span><span></span></span>
+											<span class="arrow"><span></span><span></span></span>
+											<span class="arrow"><span></span><span></span></span>
+										</span>
+									</a>
+
+									<div class="clear"></div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- +++ END - Home +++ -->
+
+			<!-- +++ START - About +++ -->
+			<div class="section" id="section1">
+
+				<section class="content-inside-section">
+
+					<div class="container">
+
+						<div class="container-inside">
+
+							<div class="main-content">
+
+								<span class="section-name">About</span>
+
+								<h2>Announcing the app and a collaborative platform</h2>
+
+								<span class="separator"></span>
+
+								<div class="row">
+
+									<div class="col-12 col-lg-6">
+
+										<p>You are welcome onboard to collaborate and contribute, brainstorm ideas, design, plan, document, and code the app as well as to work on web platforms. <br><br><br><a href="https://abyssaltech.xyz/" target="_blank" class="link_in_text">AbyssalTech</a> is made for the purpose of sharing knowledge, experiences, and anything that is tech related. We want to extend that experience further, bringing you AbyssalTech right in the app drawer of your phone.</p>
+
+									</div>
+
+									<div class="col-12 col-lg-6">
+
+										<p>Anyone can sign up for the Pre-Alpha Program above and join us.<br> A pre-alpha member gets hands-on experience in the design, development, documentation, coding, testing and release of the app and the web platform as well as graphic design and software development.<br></p>
+										<br><p> As a pre-alpha member you can contribute in many ways, including </p>
+
+										<ul class="about-list">
+											<li>Ideas</li>		
+											<li>UI/UX Design</li>
+											<li>Feature Planning and Product Development</li>
+											<li>Frontend and Backend Development</li>
+											<li>Marketing & Maintenance</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- +++ END - About +++ -->
+
+			<!-- +++ START - Work +++ -->
+			<div class="section" id="section2">
+
+				<section class="content-inside-section">
+
+					<div class="container">
+
+						<div class="container-inside">
+
+							<div class="main-content">
+
+								<span class="section-name">Creating together</span>
+
+								<h2>What to expect</h2>
+
+								<span class="separator"></span>
+
+								<div class="row">
+
+									<div class="col-12 col-lg-4 block-item">
+<a href="img-app/Web.jpg" data-featherlight="image" data-title="Front-end & Back-end" data-text="A screenshot from Google Chrome, one of the best internet browsers as well as debugger out there viewing website building blocks and HTTPS conpatibility via Console Debugging.">
+										<img src="img-app/Web.jpg" alt="Item 1" class="img-fluid item-gallery" />
+
+										<h3>Web Development <small>create</small></h3></a>
+
+										<p>Its time you get started with building websites and deploying them to the server for the world to see. Build websites, understand backend and frontend development, and web technologies.</p>
+
+									</div>
+
+									<div class="col-12 col-lg-4 block-item" data-featherlight-gallery data-featherlight-filter="a">
+
+										<a href="img-app/Vector.JPG" data-title="Logos and Brand Identity" data-text="A screenshot when designing different components, logo and favicons for website, in vector format using Inkscape.">
+											<img src="img-app/Vector.JPG" alt="Gallery 1" class="img-fluid item-gallery" />
+
+										<h3>Graphic Design <small>Design & More</small></h3></a>
+
+										<p>Design is a very important aspect of today's world, be it an app or a website. Design logos, edit images, create web components, and design front-end of apps and websites.</p>
+										
+
+			
+
+				
+
+									</div>
+
+									<div class="col-12 col-lg-4 block-item" data-featherlight-gallery data-featherlight-filter="a">
+
+										
+										<a href="img-app/More.JPG" data-title="New Experiences" data-text="A look at what a static website looks behind its beautiful face and an image render of a future webview or native app.">
+											<img src="img-app/More.JPG" alt="Gallery 1" class="img-fluid item-gallery" />
+
+										<h3> More.. <small>Much More...</small></h3></a>
+
+										<p>Get insights directly from me, contribute, learn, plan features, implement them and make it more awesome.</p>
+										
+
+			
+
+				
+
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- +++ END - Work +++ -->
+
+			<!-- +++ START - Contact +++ -->
+			<div class="section" id="section3">
+
+				<section class="content-inside-section">
+
+					<div class="container">
+
+						<div class="container-inside">
+
+							<div class="main-content">
+
+								<span class="section-name">Contact Us</span>
+								
+								<h2>Get in touch</h2>
+
+								<span class="separator"></span>
+
+		                		<div class="row">
+
+		                			<div class="col-12 col-lg-6">
+
+										<div class="row">
+
+											<div class="col-12 col-sm-6">
+												<h4>Abhishek Arya</h4>
+												<p class="contact-address">Chief Developer & Project Lead</p>
+											</div>
+										</div>
+
+		                			</div>
+
+				                    <div class="col-12 col-lg-5 offset-lg-1">
+
+				                        <!-- START - Contact Form -->
+				                        <form action="https://formspree.io/abhishekarya102@gmail.com" id="contact-form-new" name="contact-form" method="POST" data-name="Contact Form" autocomplete="on">
+
+				                            <div class="row">
+
+				                            	<!-- ! Anti-spam field ! Invisible for users, the major part of bots will write something in this field, then, they will be blocked and no spam in your inbox will come.  -->
+				                                <div class="col display-none">
+				                                    <div class="form-group">
+				                                        <input type="text" id="checking" class="form form-control" placeholder="Leave this field empty" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Leave this field empty'" name="checking" data-name="Checking">
+				                                    </div>
+				                                </div>
+
+				                                <!-- Full name -->
+				                                <div class="col-12 col-sm-6 col-lg-12">
+				                                    <div class="form-group">
+				                                        <input type="text" id="name" class="form form-control" placeholder="Name*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name*'" name="name" data-name="Name" autocomplete="name" required>
+				                                    </div>
+				                                </div>
+
+				                                <!-- E-mail -->
+				                                <div class="col-12 col-sm-6 col-lg-12">
+				                                    <div class="form-group">
+				                                        <input type="email" id="email" class="form form-control" placeholder="Email Address*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address*'" name="email-address" data-name="Email Address" autocomplete="email" required>
+				                                    </div>
+				                                </div>
+						<input type="hidden" name="_next" value="https://abyssaltech.xyz/app/contact-success.html" />
+				                                <!-- Message -->
+				                                <div class="col-12">
+				                                    <div class="form-group">
+				                                        <textarea id="text-area" class="form textarea form-control" placeholder="Your message here*... 20 characters Min." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here*... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
+				                                    </div>
+				                                    <span class="sub-text">* Required fields</span>
+				                                </div>
+
+				                            </div>
+
+				                            <!-- Form submission -->
+				                            <button type="submit" id="valid-form" class="btn btn-lg submit"><span>Send my Message</span></button>
+
+				                        </form>
+				                        <!-- END - Contact Form -->
+
+				                    </div>
+		               			</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- +++ END - Contact +++ -->
+
+		</div>
+		<!-- +++ / Fullpage sections +++ -->
+
+		<!-- START - Newsletter Popup -->
+		<div id="somedialog_1" class="dialog">
+
+			<div class="dialog__overlay"></div>
+					
+			<div class="dialog__content">
+						
+				<div class="dialog-inner">
+							
+					<h3>Join Now</h3>
+							
+					<p>Let's develop together! <strong>Just enter your email and wait for a reply from our side.</strong></p>
+
+					<!-- Newsletter Form -->
+					<div id="subscribe">
+
+		                <form action="https://formspree.io/abhishekarya102@gmail.com" id="Signmeup" method="POST">
+
+		                    <div class="form-group">
+
+		                        <div class="controls">
+		                            
+		                        	<!-- Field  -->
+		                        	<input type="text" id="mail-sub" name="email" placeholder="Click here to type your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to type your email'" class="form-control email srequiredField" />
+							<input type="hidden" name="_next" value="https://abyssaltech.xyz/app/signup-success.html" />
+		                            <!-- Button -->
+		                            <button class="btn btn-lg submit on-center"><span>Let's Go!</span></button>
+
+		                            <div class="clear"></div>
+
+		                        </div>
+		                    </div>
+		                </form>
+        			</div>
+        			<!-- /. Newsletter Form -->
+
+				</div>
+
+				<!-- Cross closing the Newsletter Popup -->
+				<button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+
+			</div>		
+		</div>
+		<!-- END - Newsletter Popup -->
+
+		<!-- CONTACT FORM - Answer for the contact form is displayed in the next div, do not remove it. -->       
+        <div id="block-answer" class="">
+
+            <div id="answer"></div>
+
+        </div>
+
+		<!-- NEWSLETTER FORM - Answer for the newsletter form is displayed in the next div, do not remove it. -->
+		<div class="block-message">
+
+			<div class="message">
+
+				<p class="notify-valid"></p>
+			</div>
+		</div>
+
+		<footer>
+
+			<div class="line"></div>
+
+			<div class="row">
+
+				<div class="col-12 col-xl-4 footer-nav">
+
+					<ul id="bottomMenu" class="on-left">
+
+						<li data-menuanchor="Home" class="active">
+							<a href="#Home">Home</a>
+						</li>
+
+						<li data-menuanchor="About">
+							<a href="#About">About</a>
+						</li>
+
+						<li data-menuanchor="What to Expect">
+							<a href="#WhattoExpect">What to Expect</a>
+						</li>
+
+						<li data-menuanchor="Contact">
+							<a href="#Contact">Contact</a>
+						</li>
+
+						<li>
+							<a class="trigger open_somedialog_1">Join Now</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-xl-4 footer-copyright">
+					<p>© 2018 | Abhishek Arya</p>
+				</div>
+
+				<div class="col-12 col-xl-4 footer-nav">
+
+					<ul class="on-right">
+
+						<li>
+							<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						</li>
+
+						<li>
+							<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+						</li>
+
+						<li>
+							<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+
+						<li>
+							<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+        <!-- ********** jQuery Resources ********** -->
+        <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+
+        <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.easings.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+		<!-- Countdown plugin -->
+		<script src="js/jquery.countdown.js"></script>
+
+		<!-- FullPage plugin -->
+		<script src="js/jquery.fullPage.js"></script>
+
+		<!-- Constellation plugin -->
+		<script src="js/constellation.js"></script>
+
+		<!-- Contact form plugin -->
+		<script src="js/contact-me.js"></script>
+
+		<!-- Popup Newsletter Form -->
+		<script src="js/classie.js"></script>
+		<script src="js/dialogFx.js"></script>
+
+		<!-- Newsletter plugin -->
+		<script src="js/notifyMe.js"></script>
+
+		<!-- Gallery plugin -->
+		<script src="js/jquery.detect_swipe.min.js"></script>
+		<script src="js/featherlight.js"></script> 
+		<script src="js/featherlight.gallery.js"></script>
+
+		<!-- Main JS File -->
+		<script src="js/main.js"></script>
+
+	</body>
+
 </html>
